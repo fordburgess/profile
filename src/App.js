@@ -1,22 +1,17 @@
 import './App.css';
+import mexico_warmer from './images/mexico_warmer.jpg'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>howdy dean 🤠</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='intro'>
+        <div className='header'>
+          <h2 style={{marginBottom: '-10px'}}>Ford Burgess</h2>
+          <h4>London, UK</h4>
+        </div>
+        <img src={mexico_warmer} alt='mexico'/>
+      </div>
     </div>
   );
 }
