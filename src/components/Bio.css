@@ -1,0 +1,39 @@
+.bio-container {
+  width: 100vw;
+  height: 80vh;
+  background-color: rgb(189, 197, 179);
+}
+.sub-container {
+  display: flex;
+  align-items: center;
+  width: 68vw;
+  height: 80vh;
+  margin: 0 auto;
+}
+.container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+  padding-top: -10px;
+}
+.bio-text {
+  width: auto;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+  height: 15%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+}
+.ford1 {
+  width: auto;
+  height: 60vh;
+  margin-left: 100px;
+}

@@ -1,22 +1,22 @@
 import './App.css';
+import Header from './components/Header.js'
+import Bio from './components/Bio.js'
 import montenegro from './images/montenegro.jpeg'
 import stockholm from './images/stockholm.jpeg'
 import sanmiguel from './images/sanmiguel.jpeg'
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div className="App">
-      <div className='intro'>
-        <div className='header'>
-          <h2 style={{marginBottom: '-10px'}}>Ford Burgess</h2>
-          <h4>London, UK</h4>
-        </div>
+       <Header />
         <div className='images'>
           <img src={montenegro} />
           <img src={stockholm} />
           <img src={sanmiguel} />
         </div>
-      </div>
+        <Bio />
+        <Projects />
     </div>
   );
 }
