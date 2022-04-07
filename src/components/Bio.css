@@ -3,9 +3,10 @@
   height: 80vh;
   background-color: rgb(189, 197, 179);
 }
-.sub-container {
+.under-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 68vw;
   height: 80vh;
   margin: 0 auto;
