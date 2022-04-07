@@ -12,9 +12,9 @@ const Projects = () => {
         </h2>
       </div>
       <div className='projects'>
-        <div className='sub-container left'>
+        <div className='sub-container' id='left'>
           {PROJECTS.map((p) => {
-            if (p.id === 0)
+            if (p.id === 1)
               return (
                 <Project title={p.title}
                 description={p.description}
@@ -24,27 +24,15 @@ const Projects = () => {
               )
           })}
         </div>
-        <div className='sub-container middle' style={{justifyContent: 'space-between'}} id='pieceOfShitDiv'>
+        <div className='sub-container' id='right'>
           {PROJECTS.map((p) => {
-            if (p.id === 1 || p.id === 2)
-              return (
-                <Project title={p.title}
-                description={p.description}
-                height={p.height}
-                width={p.width}
-                img={p.img}/>
-              )
-          })}
-        </div>
-        <div className='sub-container right'>
-          {PROJECTS.map((p) => {
-            if (p.id === 3)
+            if (p.id == 0)
             return (
               <Project title={p.title}
-              description={p.description}
-              height={p.height}
-              width={p.width}
-              img={p.img}/>
+                description={p.description}
+                height={p.height}
+                width={p.width}
+                img={p.img}/>
             )
           })}
         </div>

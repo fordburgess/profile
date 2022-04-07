@@ -14,16 +14,15 @@
   align-items: center;
   justify-content: space-between;
   height: 75%;
-  width: 90%;
-  /* padding: 0px 75px 0px 75px; */
+  width: 92%;
   margin: 0 auto;
 }
 .sub-container {
-  width: 30%;
   height: 100%;
 }
-#pieceOfShitDiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+#left {
+  width: 73%;
+}
+#right {
+  width: 25%;
 }

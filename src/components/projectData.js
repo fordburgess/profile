@@ -6,14 +6,14 @@ const PROJECTS = [
     "id": 0,
     "title": "Bandmates",
     "description": "lorem lorem ipsum hey hey what can i do sit dolet amor mi amor te quiero bonjour",
-    "height": "100%",
+    "height": "90%",
     "img": bandmates,
   },
   {
     "id": 1,
     "title": "Venulet",
     "description": "I'm johnny knoxville and this is jackass",
-    "height": "40%",
+    "height": "90%",
     "img": venulet
   },
   {
