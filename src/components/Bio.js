@@ -6,7 +6,7 @@ import ford1 from '../images/ford1.jpeg'
 const Bio = () => {
   return (
     <div className='bio-container'>
-      <div className='sub-container'>
+      <div className='under-container'>
         <div className='container-left'>
           <div className='temp'>
             <h1>Bio</h1>
