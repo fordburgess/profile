@@ -7,7 +7,7 @@ const Project = ({title, description, width, height, img}) => {
     <div className='this' style={{width: width, height: height}}>
       <img src={img} alt='img' className='project-img'/>
       <div className="info">
-        Hello!
+        {description}
       </div>
     </div>
   )
