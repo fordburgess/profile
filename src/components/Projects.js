@@ -12,27 +12,17 @@ const Projects = () => {
         </h2>
       </div>
       <div className='projects'>
-        <div className='sub-container' id='left'>
+        <div className='sub-container'>
           {PROJECTS.map((p) => {
-            if (p.id === 1)
-              return (
-                <Project title={p.title}
-                description={p.description}
-                height={p.height}
-                width={p.width}
-                img={p.img}/>
-              )
-          })}
-        </div>
-        <div className='sub-container' id='right'>
-          {PROJECTS.map((p) => {
-            if (p.id == 0)
             return (
-              <Project title={p.title}
-                description={p.description}
-                height={p.height}
-                width={p.width}
-                img={p.img}/>
+              <Project
+              id={p.id}
+              title={p.title}
+              description={p.description}
+              height={p.height}
+              width={p.width}
+              img={p.img}
+              />
             )
           })}
         </div>
